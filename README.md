@@ -1,2 +1,4 @@
-# EFPsynth
-Embedded Systems Final Project: A digital synth.
+# Frank Ziegler, Embedded Systems
+## Final Project: Digital Synth with Mozzi library
+### Sources used:
+- https://github.com/sensorium/Mozzi
