@@ -45,12 +45,12 @@ void setup() {
  */
 void updateControl() {
   // read pot-inputted pitch, blend, and wobble
-  int pitch = analogRead(A0);
-  int tremolo = analogRead(A1);
-  blend = analogRead(A4) / 1023.0; // 0.0 to 1.0 blend between osc1 and osc2
+  int pitch = mozziAnalogRead(A0);
+  int tremolo = mozziAnalogRead(A1);
+  blend = mozziAnalogRead(A4) / 1023.0; // 0.0 to 1.0 blend between osc1 and osc2
   // map analog reads for oscillator pots over range of 0-5
-  osc1 = map(analogRead(A2), 0, 1023, 0, 4); // current oscillator 1
-  osc2 = map(analogRead(A3), 0, 1023, 0, 4); // current oscillator 2
+  osc1 = map(mozziAnalogRead(A2), 0, 1023, 0, 4); // current oscillator 1
+  osc2 = map(mozziAnalogRead(A3), 0, 1023, 0, 4); // current oscillator 2
   float osc_freq = map(pitch, 0, 1023, 100, 1000);
   float lfo_freq = fmap(tremolo, 0, 1023, 0, 15.0);
   // lfo gets its own because its in its own range
