@@ -1,9 +1,9 @@
 /*
  *  Frank Ziegler, Embedded Systems Final Project
  *
- * zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
- * zzzzzzzzzzzzzzzzz EFPsynth zzzzzzzzzzzzzzzzzzz
- * zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ * ---------------------------------------------------------------------------------------------- *
+ |                                          EFPsynth                                              | 
+ * ---------------------------------------------------------------------------------------------- *
  */
 
 #include <MozziGuts.h>
